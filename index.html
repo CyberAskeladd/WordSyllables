@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>لعبة تحليل الكلمات</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="manifest" href="manifest.json">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <div class="game-title">
+        <img src="logo2030.svg" alt="شعار 2030">
+        <h1>لعبة تحليل الكلمات</h1>
+    </div>
+    <div class="game-container">
+        <p>أحلل الكلمة التالية:</p>
+        <h2 id="word"></h2>
+        <div id="syllable-inputs"></div>
+        <br>
+        <button onclick="submitAnswer()">إرسال الإجابة</button>
+        <p id="feedback"></p>
+        <button onclick="loadNewWord()">كلمة جديدة</button>
+    </div>
+    <footer>
+        إعداد المعلمة تركية ال شليل
+    </footer>
+</body>
+</html>
